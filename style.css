@@ -1,0 +1,47 @@
+body{
+    background:#0f172a;
+    font-family: Arial, sans-serif;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    color:white;
+}
+
+.game-container{
+    background:#1e293b;
+    padding:30px;
+    border-radius:10px;
+    text-align:center;
+    width:300px;
+}
+
+input{
+    padding:10px;
+    width:80%;
+    border:none;
+    border-radius:5px;
+}
+
+button{
+    padding:10px 20px;
+    margin-top:10px;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    background:#38bdf8;
+    font-weight:bold;
+}
+
+.restart{
+    background:#22c55e;
+}
+
+#message{
+    margin-top:15px;
+    font-size:18px;
+}
+
+#hint{
+    color:#facc15;
+}
